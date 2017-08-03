@@ -1,0 +1,62 @@
+	* {
+	box-sizing: border-box;
+	}
+
+	span {
+		font-style: italic;
+	}
+
+	.fb-link{
+		position: fixed;
+		top: 50px;
+		right: 50px;
+	}
+
+	.headline {
+		display: block;
+		border: 1px solid black;
+		background-color: lightblue;
+		padding: 20px;
+		margin: 0;
+		border: 1px solid black;
+		font-size: 20px;
+	}
+	.left-column {
+		background-color: lightblue;
+		float: left;
+		padding: 20px;
+		width: 50%;
+		height: 300px;
+	}
+
+	.right-column {
+		background-color: lightpink;
+		float: left;
+		padding: 20px;
+		width: 50%;
+		height: 300px;
+	}
+
+	.footer {
+		background-color: lightblue;
+		float: left;
+		padding: 20px;
+		width: 100%;
+		height: 300px;	
+	}
+
+	.float {
+		float: left;
+		padding: 10px;
+		margin: 0;
+		font-size: 20px;
+
+	}
+
+	.clearfix {
+		clear: both;
+	}
+
+	.wrapper {
+		width: 900px;
+	}
